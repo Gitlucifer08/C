@@ -27,11 +27,11 @@ void reverse(int arr[] , int n)
              break;
         }
 
-
     }
 
     // for(int i = 0 , j = n - 1 ; i < j ; i++ ,j--)   //alternative of while loop
     // {
+
     //    if( arr[i]==arr[j] )
     //    {
     //      int  temp = arr[i] ;
@@ -45,13 +45,12 @@ void reverse(int arr[] , int n)
     //         printf("array is not palindrome ");
     //         break;
     //    }
-        
-        
+               
     // }
 
-    
-
 }
+
+
 
 int main()
 {
