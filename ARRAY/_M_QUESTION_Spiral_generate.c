@@ -1,3 +1,4 @@
+// given a positive integer n , generate a n*n matrix filled with elements from 1 to n square in spiral order .
 #include<stdio.h>
 
 int main() {
@@ -39,7 +40,7 @@ int main() {
         // Print the minimum row
         for (int j = min_column; j <= max_column && count < total_elements; j++) // && condition is needed to terminate  the loop when all elements are printed count < total_elements
         {                                                                        // as without it loop will terminate after its whole rotation 
-            printf("%d ", arr[min_row][j]);
+            scanf("%d ", &arr[min_row][j]);
             count++;
         }
         min_row++;
@@ -47,7 +48,7 @@ int main() {
         // Print the maximum column
         for (int i = min_row; i <= max_row && count < total_elements; i++)
         {
-            printf("%d ", arr[i][max_column]);
+            scanf("%d ", &arr[i][max_column]);
             count++;
         }
         max_column--;
@@ -55,7 +56,7 @@ int main() {
         // Print the maximum row
         for (int j = max_column; j >= min_column && count < total_elements; j--) 
         {
-            printf("%d ", arr[max_row][j]);
+            scanf("%d ", &arr[max_row][j]);
             count++;
         }
         max_row--;
@@ -63,10 +64,18 @@ int main() {
         // Print the minimum column
         for (int i = max_row; i >= min_row && count < total_elements; i--) 
         {
-            printf("%d ", arr[i][min_column]);
+            scanf("%d ", &arr[i][min_column]);
             count++;
         }
         min_column++;
+    }
+
+     printf("new matrix:\n");
+    for (int i = 0; i < m; i++) {
+        for (int j = 0; j < n; j++) {
+            printf("%d ", arr[i][j]);
+        }
+        printf("\n");
     }
 
     return 0;

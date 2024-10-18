@@ -1,6 +1,7 @@
 // PATTERN 1 -->
 
 #include<stdio.h>
+// do dry run for right to left and then  left to right
 
 int main() {
     int m, n;
@@ -34,7 +35,7 @@ int main() {
     // Display matrix with alternate rows in reverse order
     printf("Matrix printed with alternate rows in reverse order:\n");
     for (int i = 0; i < m; i++) {
-        if (i % 2 == 0) { // Print row left-to-right for even-indexed rows
+        if (i % 2 == 0) { // Print row left-to-right for even-indexed rows 
             for (int j = 0; j < n; j++) {
                 printf("%d ", arr[i][j]);
             }
@@ -53,7 +54,7 @@ int main() {
 // PATTERN 2 -->
 
 // #include<stdio.h>
-
+// // do dry run for bottom to top and top to bottom
 // int main() {
 //     int m, n;
 

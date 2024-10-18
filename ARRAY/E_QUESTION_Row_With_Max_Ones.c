@@ -2,7 +2,6 @@
  
  
 #include<stdio.h>
-#include<limits.h>
 int main()
 {
     int r,c;
@@ -32,7 +31,7 @@ int main()
         {
             printf("%d ",arr[i][j]);
         }
-        printf("\n");
+        printf("\n"); 
     }
 
     int count , max_idx;

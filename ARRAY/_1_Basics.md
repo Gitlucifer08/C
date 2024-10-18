@@ -3,6 +3,10 @@
 - when we pass an array as an argument to a function , address of the first element of the
   array gets passed .
 
+# WAYS OF PRINTING PARTICULAR ELEMENTS
+
+![alt text](image-2.png)
+
 ### MEMORY ALLOCATION IN ARRAY
 - array allocation in arrays  is contiguous / continous  
   memory allocation .   

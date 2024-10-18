@@ -10,13 +10,14 @@ int main()
     scanf("%d",&c);
     int arr[r][c];
     for(int i=0 ; i<r ; i++)
+    {
+        
+        for(int j=0 ; j<c ; j++)
         {
-            for(int j=0 ; j<c ; j++)
-            {
-                printf("enter element (%d,%d) : ",i,j);
-                scanf("%d",&arr[i][j]);
-            }
+            printf("enter element (%d,%d) : ",i,j);
+            scanf("%d",&arr[i][j]);
         }
+    }
     int sum = 0 ;
     for(int i = 0 ; i<r ; i++)
     {

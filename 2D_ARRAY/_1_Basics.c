@@ -35,7 +35,8 @@ int main( )
     scanf("%d",&r);
     printf("Enter the number of columns : ");
     scanf("%d",&c);
-     int arr[r][c];
+     int arr[r][c]; // always comes after input // total elements  = r*c
+
 
     for(int i = 0 ; i<r ; i++)
     {
