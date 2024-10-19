@@ -25,6 +25,6 @@
 int main()
 {
     char str[] = "c language is best";
-    puts("hello everyone str");
+    puts("hello everyone str");// prints values as it is when written inside " " ,  by considring it as a string
     return 0 ;
 }

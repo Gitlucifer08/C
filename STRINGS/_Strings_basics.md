@@ -2,15 +2,29 @@
 - character array is known as strings .
 - can't declare array or string without size that will generate an error but array declaration can be done at the same time without specifying size arr[] = {'a','b','c'};
 
+## BUILT IN FUNCTION IN string.h
+
+![alt text](image-18.png)
+
 ## ANOTHER WAY OF INITIALISING STRINGS
 
 ![alt text](image-10.png)
 
 ![alt text](image-12.png)
 
+#### new string is formed when changing the whole string and the pointer prints first character of the new string now .
+
 ![alt text](image-13.png)
 
 ![alt text](image-14.png)
+
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+
+## COPY ONE STRING TO ANOTHER
+
+![alt text](image-17.png)
 
 
 ## WAYS OF PRINTING PARTICULAR ELEMENTS
