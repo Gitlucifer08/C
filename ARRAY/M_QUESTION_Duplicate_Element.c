@@ -2,10 +2,10 @@
 #include<stdio.h>
 int main()
 {
-    int arr[]={1,2,7,4,5,6,7}  ;
-    for(int i = 0 ; i<7 ; i ++) 
+    int arr[]={8,3,6,4,9,2,10,5,1,7,7}  ;
+    for(int i = 0 ; i<10 ; i ++) 
     {
-        for(int j = i + 1 ; j<7 ; j++)//important
+        for(int j = i + 1 ; j<11 ; j++)//important
         {
             if(arr[i] == arr [j])
             {
