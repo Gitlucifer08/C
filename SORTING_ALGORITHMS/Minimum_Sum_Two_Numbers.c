@@ -41,13 +41,28 @@ int main()
 
     // SORTED ARRAY
     
-    printf("\number of operation is : %d",count);
+    printf("\nNumber of operation is : %d",count);
     printf("\n");
     printf("smallest number : ");
     for(int i = 0 ; i < n ;i++)
     {
         printf("%d",arr[i]);
     }
+
+    printf("\n");
+    printf("second smallest number : ");
+    // swap of n and n-1 term
+    int temp1 = arr[n];
+    arr[n] = arr[n-1];
+    arr[n-1] = temp1 ;
+
+    for(int i = 0 ; i < n ;i++)
+    {
+        printf("%d",arr[i]);
+    }
+    
+
+    
 
 
 }
