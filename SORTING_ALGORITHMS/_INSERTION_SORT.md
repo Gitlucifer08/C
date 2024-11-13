@@ -6,7 +6,6 @@
 
 1. **Start with the second element**: In the list, begin by considering the first element as already sorted. Move to the second element.
 2. **Compare with the previous elements**: Compare the current element with the elements before it in the sorted part of the list.
-
 3. **Shift elements**: If the current element is smaller than any of the previous elements, shift those elements one position to the right to make space.
 
 4. **Insert the current element**: Place the current element in its correct position in the sorted portion.

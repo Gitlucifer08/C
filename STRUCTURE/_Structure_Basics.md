@@ -1,10 +1,28 @@
 # Structure
 
 - user defined data type
-- used to  create and store complex or diffrent data types .
+- used to  create and store complex or diffrent data
+types .
+- unlike arrays structure name does not hold address of first element .
 - in structure too (like array / string) elements are stored at continous memory locations .
 - nesting of structure is possible .
 - a structure variable can be passed to a function .
+
+![alt text](image-13.png)
+
+![alt text](image-14.png)
+
+![alt text](image-15.png)
+
+![alt text](image-16.png)
+
+![alt text](<Screenshot 2024-11-02 151514.png>)
+
+![alt text](image-20.png)
+
+![alt text](image-21.png)
+
+![alt text](image-22.png)
 
 ![alt text](image-4.png)
 

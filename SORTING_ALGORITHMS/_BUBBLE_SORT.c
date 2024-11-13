@@ -140,7 +140,7 @@ int main()
 
 
 
-// // if method 3 is not used then with method 2 no. of operations are 21 and with method 2 operations are 15 .
+// // if method 3 is not used then with method 2 no. of operations are 21 and with method 3 operations are 15 .
 // #include<stdio.h>
 // #include<stdbool.h>
 // int main()

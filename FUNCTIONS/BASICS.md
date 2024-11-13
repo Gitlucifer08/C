@@ -1,6 +1,8 @@
-# MAIN ();
+# MAIN ()
+
     1. there should be a main() .
     2. if only one function is present then it should be main() .
+
 ## function prototype
 
     1. function prototype(ex. void india(); ) is not necessary , but if not used then the
@@ -24,9 +26,5 @@
    
     int main() {
     hello();
-    return 0;}
-   
-'''  
-   
-   
-    
+    return 0;}  
+'''
